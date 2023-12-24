@@ -23,6 +23,8 @@ Invoice Date
 Total Amount
 Memo
 
+- The uploaded invoice file was renamed to the format: <Invoice Number>.pdf
+
 Prerequisites
 
  - Power Automate account.
