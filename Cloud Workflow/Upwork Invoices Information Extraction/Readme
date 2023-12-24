@@ -11,7 +11,7 @@ Features
 
 How it Works
 
- - Upload Trigger: The workflow is triggered when an invoice is uploaded to a specified folder.
+ - Trigger: The workflow is triggered when an invoice is uploaded to a specified folder in the Onedrive for Business.
  - Data Extraction: AI Builder's model extracts relevant invoice information.
  - SharePoint List Creation: The extracted data is used to create an item in a SharePoint list, containing the following columns:
 
@@ -25,10 +25,10 @@ Memo
 
 Prerequisites
 
- - Power Automate account (check if a premium license is required for AI Builder and SharePoint integration).
+ - Power Automate account.
  - Access to AI Builder with a custom document extraction model.
  - A SharePoint site with a designated list.
 
 Download the solution and import into your environment.
 
-The solution contains the customized model that will be imported into your environment.
+The solution contains the customized document processing model that will be imported into your environment.
