@@ -1,5 +1,6 @@
 
 Overview
+
 This Power Automate workflow automates the extraction of key information from Upwork invoices using AI Builder's custom document extraction model. It streamlines the process of handling invoice data, improving efficiency and accuracy.
 
 Features
