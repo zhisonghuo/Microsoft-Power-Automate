@@ -1,22 +1,16 @@
-When working with strings that contain carriage return (\r) and line feed (\n) characters in Power Automate, 
-a direct approach using split() with \r or \r\n as delimiters might not work as expected. 
+### Splitting Strings with Carriage Return and Line Feed Characters in Power Automate
 
-you should use decodeUriComponent('%0D') to process \r
-you should use decodeUriComponent('%0A') to process \n
+When working with strings that contain carriage return (`\r`) and line feed (`\n`) characters in Power Automate, a direct approach using `split()` with `\r` or `\r\n` as delimiters might not work as expected. To effectively split multi-line strings into an array, you can use a two-step process involving string replacement and splitting.
 
-To effectively split multi-line strings into an array, you can use a two-step process involving string replacement and splitting.
+#### Steps to Split Multi-Line Strings:
 
-Steps to Split Multi-Line Strings:
+1. **Replace Carriage Returns**: Replace all occurrences of the carriage return character (`\r`) with an empty string. This step removes the carriage return characters from your string, leaving only the line feed characters (`\n`) as delimiters for new lines.
 
-1. Replace Carriage Returns:
+2. **Split Using Line Feeds**: Once the carriage returns are removed, split the string at each line feed character (`\n`). This step divides the string into an array of strings, each representing a line from the original string.
 
-Replace all occurrences of the carriage return character (\r) with an empty string. 
-This step removes the carriage return characters from your string, leaving only the line feed characters (\n) as delimiters for new lines.
+#### Expression to Use in Power Automate:
 
-expression:
-replace(variables('StringContent'), decodeUriComponent('%0D'),'')
+Assuming you have a variable named `StringContent` that contains the multi-line string, use the following expression to perform the above steps:
 
-2. Split Using Line Feeds: 
-
-expression:
-split(replace(variables('StringContent'), decodeUriComponent('%0D'),''), decodeUriComponent('%0A'))
+```plaintext
+split(replace(variables('StringContent'), decodeUriComponent('%0D'), ''), decodeUriComponent('%0A'))
