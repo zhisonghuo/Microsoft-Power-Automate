@@ -18,9 +18,9 @@ To effectively split multi-line strings into an array, you can use a two-step pr
    replace(variables('StringContent'), decodeUriComponent('%0D'),'')
 
 
-2. **Split Using Line Feeds: **
+2. **Split Using Line Feeds:**
 
-**expression:**
+   **expression:**
 
-```powerautomate
-split(replace(variables('StringContent'), decodeUriComponent('%0D'),''), decodeUriComponent('%0A'))
+   ```powerautomate
+   split(replace(variables('StringContent'), decodeUriComponent('%0D'),''), decodeUriComponent('%0A'))
