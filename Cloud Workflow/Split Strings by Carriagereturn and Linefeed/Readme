@@ -21,4 +21,5 @@ replace(variables('StringContent'), decodeUriComponent('%0D'),'')
 expression:
 split(replace(variables('StringContent'), decodeUriComponent('%0D'),''), decodeUriComponent('%0A'))
 
-Download and import the solution into your environment to see the split in action.
+
+You can download and import the solution into your environment to see the split in action.
