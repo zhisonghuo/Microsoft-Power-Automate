@@ -21,8 +21,8 @@ This workflow is specifically designed for Office 365 users to automate the proc
    - Define the criteria for the email trigger, focusing on vendor specifics and the email subject line.
 2. **HTML to XML Conversion**:
    - Set up the workflow to convert email HTML content into a valid XML format.
-3. **XPath Setup**:
-   - Configure XPath selectors to pinpoint and extract the necessary data fields.
+3. **XPath Usage**:
+   - Use xpath expression to extract the necessary fields.
 4. **Workflow Customization**:
    - Tailor the 'Select' and 'Compose' actions to format and compile the shipment information.
 
