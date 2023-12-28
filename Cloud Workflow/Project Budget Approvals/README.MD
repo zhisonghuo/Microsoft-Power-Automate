@@ -5,7 +5,7 @@ This project implements an automated approval workflow in SharePoint, designed t
 
 ## Workflow Stages
 1. **Request Submission**: Users submit budget requests via a SharePoint list, including details like Project Name, Department, Budget Requested, Purpose, Start Date, and End Date.
-2. **Approval Process**: The workflow, upon submission, identifies the manager of the requester and sends them a notification for approval.
+2. **Approval Process**: The workflow, upon submission, identifies the manager of the requester and sends a notification for approval.
 3. **Decision Handling**:
    - If **approved**, the workflow updates the SharePoint list with the approval status, approver's name, and comments. The requester is then notified.
    - If **rejected**, the workflow updates the list item accordingly and notifies the requester.
@@ -33,9 +33,4 @@ This project implements an automated approval workflow in SharePoint, designed t
 ## Technologies Used
 - SharePoint List
 - Workflow Automation Tools
-
-## Future Enhancements
-- [ ] Integration with other organizational systems for broader data access.
-- [ ] Enhanced notification system with customization options.
-- [ ] Advanced reporting features for budget request analytics.
 
