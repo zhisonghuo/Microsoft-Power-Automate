@@ -30,7 +30,9 @@ This project implements an automated approval workflow in SharePoint, designed t
 - **Real-time Notifications**: Ensures timely communication to both approvers and requesters.
 - **List Item Updates**: Maintains an accurate record of approval statuses and comments in SharePoint.
 
-## Technologies Used
-- SharePoint List
-- Workflow Automation Tools
+## Connector Involved
+- Approvals
+- SharePoint
+- Office 365 Users
+- Office 365 Outlook
 
