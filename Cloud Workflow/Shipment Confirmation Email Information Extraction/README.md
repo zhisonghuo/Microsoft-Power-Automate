@@ -1,4 +1,4 @@
-# Power Automate Workflow for Email Shipment Data Extraction
+# Power Automate Workflow for Shipment Confirmation Email Data Extraction
 
 ## Overview
 This workflow is specifically designed for Office 365 users to automate the process of extracting shipment information from emails. It is tailored to activate upon receiving emails from a specified vendor, filtered by the email's subject.
@@ -31,9 +31,5 @@ This workflow is specifically designed for Office 365 users to automate the proc
 - Understanding of HTML/XML conversion and XPath.
 - Familiarity with Power Automate's 'Select' and 'Compose' actions.
 
-## Additional Resources
-For detailed instructions on setup, customization options, and troubleshooting advice, please refer to the subsequent sections in this documentation.
-
----
-
-We welcome your feedback and any suggestions for improving this workflow!
+## Connector Involved
+- Office 365 Outlook
