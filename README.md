@@ -19,7 +19,7 @@ I am proud to hold the following professional certification:
 
 To explore the workflows:
 
-1. **Navigate to Cloud flow and Desktop flow folders**: Each subfolder is named as the workflow it represents.
+1. **Navigate to [Cloud flow](https://github.com/zhisonghuo/Microsoft-Power-Automate/tree/main/Cloud%20flow) and Desktop flow folders**: Each subfolder is named as the workflow it represents.
 2. **Review the README**: Inside each subfolder, you'll find a `README.md` file. This file provides a comprehensive explanation of the workflow's function, its components, and how it serves to automate a particular business process.
 
 
