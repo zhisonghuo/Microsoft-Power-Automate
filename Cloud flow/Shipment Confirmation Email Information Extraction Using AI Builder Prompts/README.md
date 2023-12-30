@@ -1,6 +1,6 @@
 # AI Builder GPT Prompt Workflow for Email Data Extraction
 
-This repository outlines a workflow using "Create text with GPT using a prompt action (Preview)" action to extract key information from shipment confirmation emails. The extracted data includes Sales Order Number, Tracking NO, Item Description, Order Quantity, and Shipped Quantity. The workflow involves testing AI custom prompt responses, parsing the response data as JSON, and converting it to CSV format.
+This workflow use "Create text with GPT using a prompt action (Preview)" action to extract key information from shipment confirmation emails. The extracted data includes Sales Order Number, Tracking NO, Item Description, Order Quantity, and Shipped Quantity. The workflow involves testing AI custom prompt responses, parsing the response data as JSON, and converting it to CSV format.
 
 ## Workflow Steps
 
@@ -16,13 +16,10 @@ Create AI custom prompt in Prompt Builder to extract:
 Utilize the Prompt Builder "test your prompt" to ensure AI response accuracy.
 
 ### 3. Implement Approval Workflow
-Becuase the "Create text with GPT using a prompt action" still in preview in my environment, add the `Start and Wait for an Approval of Text` action, this action is required.
+Becuase the "Create text with GPT using a prompt action" still in preview in my environment, so it require the `Start and Wait for an Approval of Text` action following it to use human oversight for the AI output.
 
-### 4. Format Response as JSON
-Structure the AI's response in a JSON format with key-value pairs for each data point.
-
-### 5. Parse JSON and Convert to CSV
-After approval, parse the JSON to extract the information and convert it to a CSV format.
+### 4. Parse JSON and Convert to CSV
+After approval, parse the AI output text into JSON, re-format the information and convert it to a CSV format.
 
 
 ## Conclusion
