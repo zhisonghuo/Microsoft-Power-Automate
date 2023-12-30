@@ -36,16 +36,5 @@ To explore the workflows:
 
 For freelance inquiries, please feel free to visit my [Upwork profile](https://www.upwork.com/freelancers/~01f87b63bb7045bb0c).
 
-If you have questions or would like to discuss potential collaborations on Power Automate projects, please open an issue in this repository, and I'll respond as soon as possible.
-
-## How to Use This Repository
-
-- **Clone or Fork**: Feel free to clone or fork this repository if you wish to use these workflows as a starting point for your own projects.
-- **Issues and Discussions**: If you have suggestions or encounter an issue, please use the 'Issues' tab to let me know.
-
-## Contributing
-
-While this portfolio is a personal showcase, contributions in the form of feedback, bug reports, or discussions are welcome. 
-
-Thank you for visiting my Microsoft Power Automate Portfolio!
+If you have questions or would like to discuss potential collaborations on Power Automate projects, please contact me.
 
