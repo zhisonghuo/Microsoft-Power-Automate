@@ -24,15 +24,3 @@ This Power Automate workflow is designed for efficient file management, specific
 To effectively implement this workflow in your environment, ensure the following steps are taken:
 1. **Configure Source and Clients Root Folders**: Define the paths for the Source Folder and the Clients Root Folder.
 2. **Standardize Folder Structures**: Verify that the folder structures in both areas are identical.
-3. **Workflow Customization**: Adjust the workflow to suit your specific file routing requirements and client ID extraction methods.
-
-## Prerequisites
-- Familiarity with folder structure management in Power Automate.
-- Basic understanding of client ID extraction techniques and conditional logic in workflows.
-
-## Additional Information
-For more detailed instructions on configuration, customization, and troubleshooting, please refer to the subsequent sections of this documentation.
-
----
-
-Your feedback and suggestions for workflow improvement are highly appreciated!
