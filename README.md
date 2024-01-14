@@ -36,5 +36,3 @@ To explore the workflows:
 
 For freelance inquiries, please feel free to visit my [Upwork profile](https://www.upwork.com/freelancers/~01f87b63bb7045bb0c).
 
-If you have questions or would like to discuss potential collaborations on Power Automate projects, please contact me.
-
