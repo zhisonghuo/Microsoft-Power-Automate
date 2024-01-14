@@ -29,8 +29,7 @@ To explore the workflows:
 - Data Integration
 - Workflow Optimization
 - Custom Connector Development
-- Performance Analysis and Reporting
-- AI and Cognitive Services
+- AI Builder
 
 ## Contact and Inquiries
 
