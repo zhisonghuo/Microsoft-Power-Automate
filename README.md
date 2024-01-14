@@ -1,4 +1,4 @@
-# Microsoft Power Automate Portfolio
+# Microsoft Power Automate Portfolios
 
 Welcome to my Microsoft Power Automate Portfolio! This repository showcases a collection of workflows, automations, and integrations I've designed using Microsoft Power Automate. The goal of this portfolio is to demonstrate my expertise in automating business processes, streamlining workflows, and integrating various applications to create efficient digital solutions.
 
