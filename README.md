@@ -13,6 +13,7 @@ I am proud to hold the following professional certification:
 **Microsoft Certified: Power Automate RPA Developer Associate**
   - This certification validates my skills in developing, testing, and implementing automation flows and robotic process automation solutions. It acknowledges my ability to integrate Power Automate across the Microsoft Power Platform and associated products to enhance and streamline business operations.
   - View my credential details [here](https://learn.microsoft.com/en-us/users/85165808/credentials/b24ef6587eec57c7).
+  - <img src="https://github.com/zhisonghuo/Microsoft-Power-Automate/blob/main/Images/Badge/Power%20Automate%20RPA%20Developer%20Associate.jpg" width="100" height="100">
 
 
 ## Portfolio Projects
